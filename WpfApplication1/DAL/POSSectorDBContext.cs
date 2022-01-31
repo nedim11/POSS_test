@@ -1,16 +1,8 @@
 namespace WpfApplication1
 {
-    using DAL;
-    using System;
-    using System.Collections.Generic;
     using System.Data;
     using System.Data.Entity;
-    using System.Data.Entity.Migrations;
-    using System.Data.Entity.Migrations.Infrastructure;
     using System.Data.SqlClient;
-    using System.Diagnostics;
-    using System.Linq;
-    using System.Runtime.Remoting.Contexts;
     using WpfApplication1.Model;
 
     public class POSSectorDBContext : DbContext

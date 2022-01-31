@@ -1,18 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows;
-using WpfApplication1.Model;
-using WpfApplication1.ViewModel;
-using WpfApplication1.View;
-using System.Data.Entity.Migrations;
 using System.Data.Entity.Infrastructure;
+using System.Data.Entity.Migrations;
 using System.Data.Entity.Migrations.Infrastructure;
-using System.Data.Entity;
+using System.Windows;
 using WpfApplication1.DAL;
+using WpfApplication1.ViewModel;
 
 namespace WpfApplication1
 {

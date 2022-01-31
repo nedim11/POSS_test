@@ -1,8 +1,5 @@
 ﻿using System.ComponentModel;
-using System.Configuration;
 using System.Data;
-using System.Data.SqlClient;
-using System.Windows.Input;
 
 
 namespace WpfApplication1.ViewModel
@@ -11,7 +8,7 @@ namespace WpfApplication1.ViewModel
     {
         private POSSectorDBContext dc = new POSSectorDBContext();
 
-      
+
         public DataTable getAllOperatorsDG
         {
             get

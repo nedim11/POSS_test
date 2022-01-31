@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
+﻿using System.Collections.Generic;
 using System.Data.Entity.Migrations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using WpfApplication1.Model;
 
 namespace WpfApplication1.DAL
@@ -59,7 +54,7 @@ namespace WpfApplication1.DAL
            });
 
 
-           
+
             IList<Categories> cats = new List<Categories>();
 
             cats.Add(new Categories() { Order = 1, Name = "Voce", Printer = "Printer 1", Storage_Id = 1, Deleted = false });
@@ -84,7 +79,7 @@ namespace WpfApplication1.DAL
                 context.SubCategories.AddOrUpdate(subCat);
             base.Seed(context);
 
-        
+
             context.SaveChanges();
         }
     }

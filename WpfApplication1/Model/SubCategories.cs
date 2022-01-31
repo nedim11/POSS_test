@@ -1,15 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace WpfApplication1.Model
 {
     public class SubCategories : INotifyPropertyChanged
     {
-       
+
         public int Id { get; set; }
         public int Order { get; set; }
         public String Printer { get; set; }
